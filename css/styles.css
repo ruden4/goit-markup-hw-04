@@ -308,7 +308,38 @@ margin-bottom: 8px;
 .socials-link-icon {
 }
 /*CUSTOMERS__________________________________________*/
-
+.section-customers{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap:24px;
+}
+.customers-list-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+}
+.customers-list-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.customers-list-icon {
+}
 /* PORTFOLIO PAGE___________________________________ */
 .section-portfolio{
   padding-top: 96px;
