@@ -202,6 +202,16 @@ background-color: var(--button-color);
 }
 /* .info-item {
 } */
+.info-image {
+  display: flex;
+  width:264px;
+  height:112px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--section-color);
+}
 /* .info-icons{
 } */
 .list-title::before {
@@ -467,7 +477,6 @@ color: var(--brand-color);
   width: 264px;
 }
 .footer-container {
-  display: inline-block;
   margin-left: 120px;
 }
 .footer-social {
